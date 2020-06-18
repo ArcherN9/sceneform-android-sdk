@@ -110,7 +110,7 @@ public class GltfActivity extends AppCompatActivity {
         .setSource(
             this,
             Uri.parse(
-                "https://storage.googleapis.com/ar-answers-in-search-models/static/Tiger/model.glb"))
+                "https://philipssupplierevent.blob.core.windows.net/models/RealityKit_Test.glb"))
         .setIsFilamentGltf(true)
         .build()
         .thenAccept(
